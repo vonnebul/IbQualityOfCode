@@ -10,3 +10,4 @@ function insertUser(user) {
 
 
 console.log('Inserting user...');
+console.log(insertUser({ name: 'michel Doe', email: 'michel@example.com' }));
