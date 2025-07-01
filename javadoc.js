@@ -7,3 +7,6 @@ function insertUser(user) {
     }
     return db.insert('users', user);
 }
+
+
+console.log('Inserting user...');
