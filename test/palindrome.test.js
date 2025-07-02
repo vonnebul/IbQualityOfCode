@@ -3,7 +3,7 @@ describe("aire d'un carrée", ()=>{
     it("aire d'un carrée 5 au carré = 25",()=>{
         expect(carre(5)).toBe(25)
     })
-    it('Erreur si côté du carré négatif',()=>{
+    it('Erreur si côté du carré négatiqsdqdf',()=>{
         expect(()=> carre(-5).toThrow())
     })
 })
